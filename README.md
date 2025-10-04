@@ -34,7 +34,7 @@ This dbt project demonstrates a layered data transformation approach:
    - Schema: `DBT_MFARID`
 3. Link your repository and open the **IDE**.
 
-### For local setup (optional)
+### For local setup
 ```bash
 # Install dbt for Snowflake
 pip install dbt-snowflake
