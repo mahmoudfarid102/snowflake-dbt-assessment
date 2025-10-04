@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: customer_revenue
+    description: "Gold-layer: total revenue per customer (sum of l_extendedprice * (1 - l_discount)), joined with customer for name."
+    columns:
+      - name: c_custkey
+        description: "Primary key at customer grain."
+        tests:
+          - not_null
+      - name: customer_name
+        description: "Customer name."
+      - name: total_revenue
+        description: "Aggregated revenue for the customer."
