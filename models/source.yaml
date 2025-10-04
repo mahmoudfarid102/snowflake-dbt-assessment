@@ -1,0 +1,14 @@
+sources:
+  - name: sample_data
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+
+    tables:
+      - name: customer
+        identifier: customer
+
+      - name: orders
+        identifier: orders
+
+      - name: lineitem
+        identifier: lineitem
